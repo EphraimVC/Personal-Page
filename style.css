@@ -1,0 +1,198 @@
+
+
+
+/*body*/
+
+body{
+    margin: 0;
+}
+h1,h2,h3,h4,h5,p,a{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*main page*/
+
+/*navbar--------------------------------------------------*/
+h3{ 
+    margin-left: 20px;
+}
+ul{
+    margin: 0px;
+}
+
+ul#horizontal li{
+   
+    float: right;
+    font-family:'Montserrat', sans-serif;
+    padding: 7px 30px;
+    list-style: none;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+a:hover{
+    color: #ed6663;
+    text-decoration: underline;
+}
+
+
+/*main content--------------------------------------------------------------------------------*/
+
+.maincontent{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+.mainpic{
+    float:right;
+    height:50%;
+    width:50%;
+    border-radius:50%;
+    margin-top: 70px;
+    margin-right: 300px;
+    border-style: solid ;
+   }
+ .mainpic:hover{
+     border-style: solid;
+     border-bottom-color: #ed6663;
+     border-left-color: dodgerblue;
+     border-right-color: forestgreen;
+     border-top-color: goldenrod;
+   }
+
+.title{
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 260px;
+}
+
+
+h4{
+    margin-left: 240px;
+    width: 40%;
+
+}
+
+/*footer*/
+
+footer{
+    position: relative;
+     margin-top: 230px;
+    
+}
+
+.logo{
+    display:inline;
+    height:50px;
+}
+
+.giticon{
+    margin-bottom: 6px;
+    padding-left: 15px;
+}
+
+.footerlogos{
+    margin-left: 45%;
+}
+
+/*travel page---------------------------------------------------------------------------------------------------------------*/
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    padding: 100px 0 0 150px;
+    
+}
+
+.gridtitles{
+    margin-left: 80px;
+}
+
+.gridtitles1{
+    margin-left: 80px;
+    padding-left: 20px;
+}
+
+.gridtext{
+    width: 80%;
+}
+
+.gridpic{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.gridpic:hover{
+   border-style: solid;
+   border-bottom-color: #ed6663;
+   border-left-color: dodgerblue;
+   border-right-color: forestgreen;
+   border-top-color: goldenrod;
+}
+
+span{
+    color: #ed6663;
+}
+
+
+/* about section ------------------------------------------------------*/
+
+.aboutheader{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.middlepic{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    margin-top: 3rem;
+    
+}
+
+.middle{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+p.aboutme{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
+    line-height: 2.3rem;
+    font-size: 1.3rem;
+}
+    
+
+/* contact section ---------------------------------------------------------------*/
+
+.mailcontact{
+    text-align: center;
+    padding-left: 12%;
+    margin-top: 3rem;
+    padding-top: 5rem;
+}
+
+.number{
+    text-align: center;
+    padding-left: 12%;
+}
+
+.number1{
+    font-size: 20px;
+    color: green;
+}
+
+.click{
+    color: green;
+    font-size: 20px;
+}
